@@ -1,15 +1,15 @@
 <h1 align="center"><code>42API Lib</code></h1>
 
 <div align="center">
-  <sub>Created by ?</sub>
+  <sub>Created by W2.Wizard & TheBriar</sub>
 </div>
 <div align="center">
-  <sub>Adapted by <a href="https://hive.fi">Hive Helsinki</a> for all the 42 Network</sub>
+  <sub>Adapted by <a href="https://hive.fi">Hive Helsinki</a> for the 42 Network</sub>
 </div>
 
 ---
 
-HiveLib 42API is a Python script that helps you connect and make requests to the 42 Network's internal [42API](https://api.intra.42.fr/apidoc).
+42API-Utils is a Python script library that helps you connect and make requests to the 42 Network's internal [42API](https://api.intra.42.fr/apidoc) much easier.
 
 ## Pre-requisites:
 First things first, get yourself **Python 3.6 or above**. You will also need the packages listed in the 'requirements.txt'. Install them with the command `pip3 install -r requirements.txt`. We highly recommend using virtual environments for all Python projects, otherwise it might get [messy](https://xkcd.com/1987/). If you are new to Python, you may want to read some basics on [object oriented approach, classes and methods.](https://docs.python.org/3/tutorial/classes.html)
