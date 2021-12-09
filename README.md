@@ -1,4 +1,4 @@
-<h1 align="center"><code>42API Lib</code></h1>
+<h1 align="center"><code>42API Utils</code></h1>
 
 <div align="center">
   <sub>Created by W2.Wizard & TheBriar</sub>
