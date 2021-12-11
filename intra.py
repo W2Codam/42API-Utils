@@ -115,7 +115,7 @@ class IntraAPIClient(object):
     def delete(self, url, headers={}, **kwargs):
         return self.request(requests.delete, url, headers, **kwargs)
 
-    def pages(self, url, headers={}, **kwargs):
+    def	getall(self, url, headers={}, **kwargs):
         kwargs['params'] = kwargs.get('params', {}).copy()
         kwargs['params']['page'] = int(kwargs['params'].get('page', 1))
         kwargs['params']['per_page'] = kwargs['params'].get('per_page', 100)
@@ -133,7 +133,7 @@ class IntraAPIClient(object):
         return total
 
 
-    def pages_threaded(self, url, headers={}, threads=20, stop_page=None,
+    def getall_threaded(self, url, headers={}, threads=20, stop_page=None,
                                                             thread_timeout=15, **kwargs):
         def _page_thread(url, headers, queue, **kwargs):
             queue.put(self.get(url=url, headers=headers, **kwargs).json())
